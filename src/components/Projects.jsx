@@ -77,7 +77,11 @@ const Projects = () => {
     return (
         <section id="projects">
             <h3 className="section-title">Featured Projects</h3>
-            <div style={{ display: 'grid', gap: '2rem' }}>
+            <div style={{
+                display: 'grid',
+                gap: '2rem',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))'
+            }}>
                 {projects.map((project, index) => (
                     <div key={index} style={{
                         backgroundColor: 'var(--card-bg)',

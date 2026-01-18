@@ -37,7 +37,12 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2;
   margin-bottom: 0.5rem;
   color: #111;
@@ -45,12 +50,12 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
   padding: 4rem 1rem;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
