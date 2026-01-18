@@ -62,55 +62,57 @@ const Skills = () => {
     ];
 
     return (
-        <section id="skills" style={{ backgroundColor: 'white', padding: '4rem 0' }}>
-            <h3 className="section-title">Technical Skills</h3>
+        <div style={{ backgroundColor: 'white', width: '100%' }}>
+            <section id="skills">
+                <h3 className="section-title">Technical Skills</h3>
 
-            <div style={{ display: 'grid', gap: '3rem' }}>
-                {skillCategories.map((category, idx) => (
-                    <div key={idx}>
-                        <div style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.8rem',
-                            marginBottom: '1.5rem',
-                            paddingBottom: '0.5rem',
-                            borderBottom: '2px solid #f0f0f0'
-                        }}>
-                            {category.icon}
-                            <h4 style={{ fontSize: '1.2rem', margin: 0, color: 'var(--text-color)' }}>{category.title}</h4>
-                        </div>
+                <div style={{ display: 'grid', gap: '3rem' }}>
+                    {skillCategories.map((category, idx) => (
+                        <div key={idx}>
+                            <div style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '0.8rem',
+                                marginBottom: '1.5rem',
+                                paddingBottom: '0.5rem',
+                                borderBottom: '2px solid #f0f0f0'
+                            }}>
+                                {category.icon}
+                                <h4 style={{ fontSize: '1.2rem', margin: 0, color: 'var(--text-color)' }}>{category.title}</h4>
+                            </div>
 
-                        <div style={{
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))',
-                            gap: '1.5rem'
-                        }}>
-                            {category.skills.map((skill, index) => (
-                                <div key={index} style={{
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    padding: '1.2rem',
-                                    backgroundColor: 'var(--bg-color)',
-                                    borderRadius: '8px',
-                                    border: '1px solid var(--border-color)',
-                                    transition: 'transform 0.2s',
-                                    cursor: 'default',
-                                    textAlign: 'center'
-                                }}
-                                    onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
-                                    onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                                >
-                                    <div style={{ marginBottom: '0.6rem' }}>{skill.icon}</div>
-                                    <span style={{ fontSize: '0.85rem', fontWeight: 500 }}>{skill.name}</span>
-                                </div>
-                            ))}
+                            <div style={{
+                                display: 'grid',
+                                gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))',
+                                gap: '1.5rem'
+                            }}>
+                                {category.skills.map((skill, index) => (
+                                    <div key={index} style={{
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        padding: '1.2rem',
+                                        backgroundColor: 'var(--bg-color)',
+                                        borderRadius: '8px',
+                                        border: '1px solid var(--border-color)',
+                                        transition: 'transform 0.2s',
+                                        cursor: 'default',
+                                        textAlign: 'center'
+                                    }}
+                                        onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
+                                        onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                                    >
+                                        <div style={{ marginBottom: '0.6rem' }}>{skill.icon}</div>
+                                        <span style={{ fontSize: '0.85rem', fontWeight: 500 }}>{skill.name}</span>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
-        </section>
+                    ))}
+                </div>
+            </section>
+        </div>
     );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section id="contact" style={{ textAlign: 'center', margin: '4rem auto' }}>
+        <section id="contact" style={{ textAlign: 'center' }}>
             <h3 className="section-title" style={{ borderBottom: 'none', marginBottom: '1rem' }}>Let's Work Together</h3>
             <p style={{ maxWidth: '500px', margin: '0 auto 2rem', color: 'var(--text-secondary)' }}>
                 I'm always open to discussing new FinTech projects and opportunities.
