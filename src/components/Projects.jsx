@@ -45,6 +45,20 @@ const Projects = () => {
             links: []
         },
         {
+            name: 'International Payment',
+            role: 'Self (Offsite)',
+            duration: 'Jun 2025 - Jul 2025',
+            tech: ['Flutter', 'Cross-border API', 'Real-time', 'Compliance'],
+            problem: 'U.S. businesses need a faster, reliable way to send global payments.',
+            solution: 'Cross-border payment platform enabling minutes-fast transfers from U.S. to UK, Europe, Asia, and more.',
+            responsibilities: [
+                'Developed a cross-border platform for global wallet-to-bank transfers.',
+                'Built real-time transaction tracking and transparent fee handling.',
+                'Integrated scalable APIs for fast settlement and regulatory compliance.'
+            ],
+            links: []
+        },
+        {
             name: 'Virtual Cards',
             role: 'Self Product (Company)',
             duration: 'Jun 2025 - Jul 2025',
@@ -55,6 +69,20 @@ const Projects = () => {
                 'Developed a Virtual Cards and Business Expense Management platform enabling instant issuance of cards.',
                 'Implemented features for AI-powered receipt capture, automated expense categorization, and accounting exports.',
                 'Ensured enterprise-grade security with encryption, tokenization, instant card freeze/unfreeze, and fraud prevention.'
+            ],
+            links: []
+        },
+        {
+            name: 'GetPaid Link',
+            role: 'Self (Offsite)',
+            duration: 'Apr 2025 - May 2025',
+            tech: ['Flutter', 'Payment Links', 'PCI Compliance', 'Recurring Billing'],
+            problem: 'Businesses need to collect payments instantly without requiring customers to install an app.',
+            solution: 'Secure payment link platform enabling collection of one-time or recurring payments via email or SMS.',
+            responsibilities: [
+                'Developed a platform for collecting payments via shared links (email/SMS).',
+                'Built payment link generation, recurring billing workflows, and notifications.',
+                'Ensured PCI-compliant processing and secure transaction handling.'
             ],
             links: []
         },
