@@ -83,64 +83,61 @@ const Projects = () => {
                 gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))'
             }}>
                 {projects.map((project, index) => (
-                    <div key={index} style={{
-                        backgroundColor: 'var(--card-bg)',
-                        padding: '1.5rem',
-                        borderRadius: '8px',
-                        border: '1px solid var(--border-color)',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.02)'
-                    }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                            <div>
-                                <h4 style={{ fontSize: '1.25rem', color: 'var(--accent-color)' }}>{project.name}</h4>
-                                <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{project.duration}</div>
+                    {
+                        projects.map((project, index) => (
+                            <div key={index} className="modern-card">
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+                                    <div>
+                                        <h4 style={{ fontSize: '1.25rem', color: 'var(--accent-color)' }}>{project.name}</h4>
+                                        <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{project.duration}</div>
+                                    </div>
+                                    <span style={{ fontSize: '0.85rem', padding: '0.2rem 0.6rem', backgroundColor: '#e9ecef', borderRadius: '4px', color: 'var(--text-secondary)' }}>
+                                        {project.role}
+                                    </span>
+                                </div>
+
+                                <p style={{ fontSize: '0.95rem', marginBottom: '0.5rem' }}>
+                                    <strong>Problem:</strong> {project.problem}
+                                </p>
+                                <p style={{ fontSize: '0.95rem', marginBottom: '1rem' }}>
+                                    <strong>Solution:</strong> {project.solution}
+                                </p>
+
+                                <div style={{ marginBottom: '1rem' }}>
+                                    <ul style={{ paddingLeft: '1.2rem', listStyle: 'disc' }}>
+                                        {project.responsibilities.map((resp, i) => (
+                                            <li key={i} style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '0.2rem' }}>{resp}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+
+                                <div style={{ marginBottom: '1.5rem', display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
+                                    {project.tech.map((t, i) => (
+                                        <span key={i} style={{
+                                            fontSize: '0.85rem',
+                                            backgroundColor: 'rgba(0, 95, 115, 0.1)',
+                                            color: 'var(--accent-color)',
+                                            padding: '0.3rem 0.8rem',
+                                            borderRadius: '20px',
+                                            fontWeight: 500
+                                        }}>
+                                            {t}
+                                        </span>
+                                    ))}
+                                </div>
+
+                                {project.links.length > 0 && (
+                                    <div style={{ display: 'flex', gap: '1rem' }}>
+                                        {project.links.map((link, i) => (
+                                            <a key={i} href={link.url} style={{ fontSize: '0.9rem', fontWeight: 500 }}>
+                                                {link.label} ↗
+                                            </a>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
-                            <span style={{ fontSize: '0.85rem', padding: '0.2rem 0.6rem', backgroundColor: '#e9ecef', borderRadius: '4px', color: 'var(--text-secondary)' }}>
-                                {project.role}
-                            </span>
-                        </div>
-
-                        <p style={{ fontSize: '0.95rem', marginBottom: '0.5rem' }}>
-                            <strong>Problem:</strong> {project.problem}
-                        </p>
-                        <p style={{ fontSize: '0.95rem', marginBottom: '1rem' }}>
-                            <strong>Solution:</strong> {project.solution}
-                        </p>
-
-                        <div style={{ marginBottom: '1rem' }}>
-                            <ul style={{ paddingLeft: '1.2rem', listStyle: 'disc' }}>
-                                {project.responsibilities.map((resp, i) => (
-                                    <li key={i} style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '0.2rem' }}>{resp}</li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        <div style={{ marginBottom: '1.5rem', display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
-                            {project.tech.map((t, i) => (
-                                <span key={i} style={{
-                                    fontSize: '0.85rem',
-                                    backgroundColor: 'rgba(0, 95, 115, 0.1)',
-                                    color: 'var(--accent-color)',
-                                    padding: '0.3rem 0.8rem',
-                                    borderRadius: '20px',
-                                    fontWeight: 500
-                                }}>
-                                    {t}
-                                </span>
-                            ))}
-                        </div>
-
-                        {project.links.length > 0 && (
-                            <div style={{ display: 'flex', gap: '1rem' }}>
-                                {project.links.map((link, i) => (
-                                    <a key={i} href={link.url} style={{ fontSize: '0.9rem', fontWeight: 500 }}>
-                                        {link.label} ↗
-                                    </a>
-                                ))}
-                            </div>
-                        )}
-                    </div>
-                ))}
+                        ))
+                    }
             </div>
         </section>
     );
