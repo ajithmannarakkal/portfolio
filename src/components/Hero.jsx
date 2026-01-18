@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../assets/profile-pic.jpg';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
           backgroundColor: '#e9ecef',
           borderRadius: '50%',
           margin: '0 auto 1.5rem',
-          backgroundImage: 'url(/profile-pic.jpg)', // Replace with actual image path or remove if not needed yet
+          backgroundImage: `url(${profilePic})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           border: '4px solid white',
