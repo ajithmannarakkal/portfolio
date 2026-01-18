@@ -3,6 +3,48 @@ import React from 'react';
 const Projects = () => {
     const projects = [
         {
+            name: 'Document Mail',
+            role: 'Self (Offsite)',
+            duration: 'Oct 2025 - Dec 2025',
+            tech: ['Flutter', 'OCR', 'PDF Generation', 'Encryption'],
+            problem: 'Need for secure document scanning, digitization, and global document delivery.',
+            solution: 'Mobile app for scanning physical documents, converting to PDF with OCR, and securely sending them worldwide.',
+            responsibilities: [
+                'Developed a mobile application for secure document scanning and digitization.',
+                'Built document capture workflows, secure storage, and PDF generation features.',
+                'Ensured data privacy through encrypted document handling and secure sharing.'
+            ],
+            links: []
+        },
+        {
+            name: 'Check Mail',
+            role: 'Self (Offsite)',
+            duration: 'Aug 2025 - Sep 2025',
+            tech: ['Flutter', 'eCheck', 'Payments', 'Secure Integrations'],
+            problem: 'Need for a fast, secure alternative to traditional check payments.',
+            solution: 'Digital check and eCheck platform enabling users to send checks via email or mail using bank accounts or cards.',
+            responsibilities: [
+                'Developed a digital payment platform for sending checks via email or mail.',
+                'Built secure payment workflows and reliable backend integrations for compliance.',
+                'Designed intuitive Flutter-based UI for seamless check creation and tracking.'
+            ],
+            links: []
+        },
+        {
+            name: 'Payroll by Card',
+            role: 'Self (Offsite)',
+            duration: 'Aug 2025 - Oct 2025',
+            tech: ['Flutter', 'FinTech', 'ACH/Wire', 'Credit Card Funding'],
+            problem: 'Small businesses need flexible payroll funding options to improve cash flow.',
+            solution: 'FinTech payroll platform allowing companies to fund payroll using business credit cards to earn rewards and extend cycles.',
+            responsibilities: [
+                'Developed a platform for funding payroll with business credit cards via ACH or wire.',
+                'Built credit card funding workflows and integrations with accounting/payroll systems.',
+                'Delivered a mobile-first, secure, and scalable Flutter-based experience.'
+            ],
+            links: []
+        },
+        {
             name: 'Virtual Cards',
             role: 'Self Product (Company)',
             duration: 'Jun 2025 - Jul 2025',
