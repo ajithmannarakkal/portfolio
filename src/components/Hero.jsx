@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/profile-pic.jpg';
+import resumePdf from '../assets/Ajith_M_Flutter_Developer_4Yrs.pdf';
 
 const Hero = () => {
   return (
@@ -54,7 +55,7 @@ const Hero = () => {
 
         <div>
           <a href="#contact" className="btn">Get in Touch</a>
-          <a href="/Ajith_M_Flutter_Developer_Resume.pdf" download className="btn" style={{ marginLeft: '1rem', backgroundColor: 'transparent', border: '1px solid var(--accent-color)', color: 'var(--accent-color)' }}>
+          <a href={resumePdf} download="Ajith_M_Flutter_Developer_4Yrs.pdf" className="btn" style={{ marginLeft: '1rem', backgroundColor: 'transparent', border: '1px solid var(--accent-color)', color: 'var(--accent-color)' }}>
             Download Resume
           </a>
           <a href="#projects" style={{ marginLeft: '1rem', color: 'var(--text-color)', fontWeight: 500 }}>View Work ↓</a>
