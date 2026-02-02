@@ -4,7 +4,7 @@ const Projects = () => {
     const projects = [
         {
             name: 'Quick Note – Notes & Tasks',
-            role: 'Solo Developer',
+            role: 'Personal Project',
             duration: 'Live on Play Store',
             tech: ['Flutter', 'Offline-first', 'Local Storage', 'Masonry Grid'],
             problem: 'Need for a fast, privacy-focused, offline-first note-taking app with a beautiful design.',
