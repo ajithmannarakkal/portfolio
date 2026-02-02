@@ -20,10 +20,10 @@ const Hero = () => {
         }}></div>
         <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Ajith M</h1>
         <h2 style={{ fontSize: '1.25rem', fontWeight: 400, color: 'var(--text-secondary)', marginBottom: '1rem', lineHeight: '1.6' }}>
-          Senior Flutter Developer | 4+ Years | Android & iOS | Play Store & App Store | Firebase | REST APIs
+          Software Engineer (Flutter) | Mobile & FinTech Systems
         </h2>
-        <p style={{ fontSize: '1.1rem', maxWidth: '600px', color: 'var(--text-secondary)', marginBottom: '2rem' }}>
-          Specializing in secure, high-performance financial systems and scalable Android & iOS applications.
+        <p style={{ fontSize: '1.1rem', maxWidth: '650px', color: 'var(--text-secondary)', marginBottom: '2rem' }}>
+          Software Engineer with 4+ years of experience building production-grade cross-platform mobile applications using Flutter. Specialized in FinTech mobile systems, secure transaction workflows, and scalable app architecture.
         </p>
 
         {/* Quick Stats */}

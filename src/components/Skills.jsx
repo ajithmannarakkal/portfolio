@@ -15,8 +15,6 @@ const Skills = () => {
                 { name: 'iOS', icon: <FaApple size={30} color="#000000" /> },
                 { name: 'Responsive UI', icon: <FaMobileAlt size={30} color="#555" /> },
                 { name: 'Custom Widgets', icon: <SiFlutter size={30} color="#777" /> },
-                { name: 'Theming', icon: <FaFigma size={30} color="#F24E1E" /> },
-                { name: 'Localization', icon: <FaGlobe size={30} color="#4CAF50" /> },
             ]
         },
         {
@@ -24,11 +22,12 @@ const Skills = () => {
             icon: <FaLayerGroup size={24} color="var(--accent-color)" />,
             skills: [
                 { name: 'Clean Arch', icon: <TbSdk size={30} color="#4CAF50" /> },
-                { name: 'MVVM / MVC', icon: <FaLayerGroup size={30} color="#607D8B" /> },
-                { name: 'Riverpod', icon: <FaLayerGroup size={30} color="#2D2D2D" /> }, // Generic icon fallback
+                { name: 'MVVM', icon: <FaLayerGroup size={30} color="#607D8B" /> },
+                { name: 'SOLID Principles', icon: <FaCheckDouble size={30} color="#4CAF50" /> },
+                { name: 'Riverpod', icon: <FaLayerGroup size={30} color="#2D2D2D" /> },
                 { name: 'Provider', icon: <FaCubes size={30} color="#7209B7" /> },
                 { name: 'GetX', icon: <FaBolt size={30} color="#FFD700" /> },
-                { name: 'Files / Flavors', icon: <FaTools size={30} color="#795548" /> },
+                { name: 'BLoC', icon: <FaCubes size={30} color="#0052CC" /> },
             ]
         },
         {
@@ -36,27 +35,34 @@ const Skills = () => {
             icon: <FaCloud size={24} color="var(--accent-color)" />,
             skills: [
                 { name: 'Firebase', icon: <SiFirebase size={30} color="#FFCA28" /> },
-                { name: 'Google Auth', icon: <FaGoogle size={30} color="#DB4437" /> },
-                { name: 'Push Notif.', icon: <TbBellRinging size={30} color="#FFD700" /> },
                 { name: 'REST APIs', icon: <SiGooglecloud size={30} color="#4285F4" /> },
-                { name: 'Dio / Http', icon: <FaCloud size={30} color="#0288D1" /> },
-                { name: 'Hive / SQLite', icon: <FaDatabase size={30} color="#003B57" /> },
+                { name: 'Dio', icon: <FaCloud size={30} color="#0288D1" /> },
+                { name: 'JSON Parsing', icon: <FaTools size={30} color="#795548" /> },
                 { name: 'Google Maps', icon: <SiGooglemaps size={30} color="#4285F4" /> },
-                { name: 'Payments', icon: <FaCreditCard size={30} color="#ff9800" /> },
+                { name: 'Push Notif.', icon: <TbBellRinging size={30} color="#FFD700" /> },
             ]
         },
         {
-            title: "Tools, DevOps & Deployment",
+            title: "FinTech Systems",
+            icon: <FaCreditCard size={24} color="var(--accent-color)" />,
+            skills: [
+                { name: 'Payment Gateways', icon: <FaCreditCard size={30} color="#4CAF50" /> },
+                { name: 'ACH Transfers', icon: <FaCreditCard size={30} color="#2196F3" /> },
+                { name: 'Wire Processing', icon: <FaCreditCard size={30} color="#FF9800" /> },
+                { name: 'Virtual Cards', icon: <FaCreditCard size={30} color="#9C27B0" /> },
+                { name: 'eChecks', icon: <FaCreditCard size={30} color="#607D8B" /> },
+            ]
+        },
+        {
+            title: "Tools & DevOps",
             icon: <FaTools size={24} color="var(--accent-color)" />,
             skills: [
                 { name: 'Git / GitHub', icon: <FaGitAlt size={30} color="#F05032" /> },
-                { name: 'AI Tools', icon: <FaRobot size={30} color="#333" /> },
-                { name: 'Crashlytics', icon: <FaBug size={30} color="#F44336" /> },
-                { name: 'Bitbucket', icon: <SiBitbucket size={30} color="#0052CC" /> },
+                { name: 'CI/CD', icon: <FaTools size={30} color="#4CAF50" /> },
+                { name: 'Agile / Scrum', icon: <FaTools size={30} color="#2196F3" /> },
                 { name: 'Jira', icon: <SiJira size={30} color="#0052CC" /> },
                 { name: 'Postman', icon: <SiPostman size={30} color="#FF6C37" /> },
                 { name: 'Android Studio', icon: <SiAndroidstudio size={30} color="#3DDC84" /> },
-                { name: 'XCode', icon: <SiXcode size={30} color="#1575F9" /> },
             ]
         }
     ];

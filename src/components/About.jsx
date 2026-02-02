@@ -5,8 +5,8 @@ const About = () => {
         <section id="about">
             <h3 className="section-title">About</h3>
             <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
-                I’m a <strong>Flutter Developer at ZilMoney</strong>, building scalable, production-ready FinTech mobile applications for Android and iOS.
-                With 4+ years of hands-on experience, I specialize in developing high-performance cross-platform apps using Flutter, Dart, and Firebase, with a strong focus on clean architecture, maintainability, and user experience.
+                I’m a <strong>Software Engineer at Zil Money</strong>, specializing in secure transaction workflows and scalable app architecture.
+                I have 4+ years of experience building production-grade mobile applications and am known for cross-functional collaboration, stakeholder communication, and feature ownership from design to deployment.
             </p>
 
             <div style={{ marginBottom: '1.5rem' }}>
@@ -14,10 +14,10 @@ const About = () => {
                 <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
                     {[
                         'Modular & scalable Flutter architecture',
-                        'State management: GetX, Riverpod, Provider',
-                        'REST API integrations & secure payment gateways',
-                        'Google Maps, location services, and real-time data',
-                        'Performance optimization & production stability'
+                        'Secure transaction workflows & FinTech systems',
+                        'State management: Riverpod, Provider, GetX, BLoC',
+                        'REST API integrations & third-party libraries',
+                        'Feature ownership & stakeholder communication'
                     ].map((item, index) => (
                         <li key={index} style={{ fontSize: '1rem', color: 'var(--text-secondary)', marginBottom: '0.3rem', display: 'flex', alignItems: 'center' }}>
                             <span style={{ color: 'var(--accent-color)', marginRight: '0.5rem', fontSize: '1.2rem' }}>▹</span> {item}

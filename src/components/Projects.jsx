@@ -3,6 +3,76 @@ import React from 'react';
 const Projects = () => {
     const projects = [
         {
+            name: 'OCW – FinTech Mobile Payment Platform',
+            role: 'Self Product (Company)',
+            duration: 'Apr 2024 - Jan 2026',
+            tech: ['Flutter', 'Dart', 'REST APIs', 'Secure Payment Gateways', 'Cloud Services'],
+            problem: 'Managing Accounts Payable (AP) and Accounts Receivable (AR) efficiently in a unified platform.',
+            solution: 'Cloud-based FinTech payment application supporting checks, eChecks, ACH, wires, and wallet transfers.',
+            responsibilities: [
+                'Built secure and scalable payment workflows using military-grade security standards to prevent check fraud.',
+                'Designed intuitive, user-friendly UI for seamless payment processing on mobile devices.',
+                'Supported 24/7 operational readiness with robust error handling and customer support integration.'
+            ],
+            links: []
+        },
+        {
+            name: 'Virtual Cards & Expense Management',
+            role: 'Self Product (Company)',
+            duration: 'Jun 2025 - Jul 2025',
+            tech: ['Flutter', 'AI/ML', 'Encryption', 'Analytics'],
+            problem: 'Need for instant issuance and management of virtual and physical expense cards with strict controls.',
+            solution: 'Business Expense Management platform enabling card issuance, spending control, and automated receipt processing.',
+            responsibilities: [
+                'Developed a Virtual Cards and Business Expense Management platform enabling instant issuance of cards.',
+                'Implemented features for AI-powered receipt capture, automated expense categorization, and accounting exports.',
+                'Ensured enterprise-grade security with encryption, tokenization, instant card freeze/unfreeze, and fraud prevention.'
+            ],
+            links: []
+        },
+        {
+            name: 'International Payment Platform',
+            role: 'Self (Offsite)',
+            duration: 'Jun 2025 - Jul 2025',
+            tech: ['Flutter', 'Cross-border API', 'Real-time', 'Compliance'],
+            problem: 'U.S. businesses need a faster, reliable way to send global payments.',
+            solution: 'Cross-border payment platform enabling global wallet-to-bank transfers with real-time tracking.',
+            responsibilities: [
+                'Developed a cross-border platform for global wallet-to-bank transfers.',
+                'Built real-time transaction tracking and transparent fee handling.',
+                'Integrated scalable APIs for fast settlement and regulatory compliance.'
+            ],
+            links: []
+        },
+        {
+            name: 'ZQ Plus – Service Booking Mobile Platform',
+            role: 'ZQ Innovations Pvt Ltd',
+            duration: 'Sep 2023 - Mar 2024',
+            tech: ['Flutter', 'Real-time Databse', 'Notifications'],
+            problem: 'Enabling customers to discover professionals and book consultations seamlessly.',
+            solution: 'Service booking ecosystem with notifications and payment features consisting of Customer, Professional, and Team apps.',
+            responsibilities: [
+                'Contributed to building end-to-end booking workflows, profile management, and real-time notifications.',
+                'Implemented payment dashboards and consultation management features (rescheduling, cancellations).',
+                'Implemented scalable Flutter-based UI and backend integrations for service discovery.'
+            ],
+            links: []
+        },
+        {
+            name: 'FMart Grocer – Location-based E-commerce',
+            role: 'External Client Retail ECommerce',
+            duration: 'Oct 2022 - Feb 2023',
+            tech: ['Flutter', 'Location Services', 'Loyalty Integration'],
+            problem: 'Location-based online grocery shopping for customers in Dubai and Abu Dhabi.',
+            solution: 'Mobile application enabling users to browse fresh groceries, select nearest stores, and receive doorstep delivery.',
+            responsibilities: [
+                'Implemented product catalog browsing, store-specific offers, and loyalty program integration.',
+                'Contributed to building a smooth, scalable Flutter UI related to personalized offers and alerts.',
+                'Ensured a seamless shopping experience for individuals and families.'
+            ],
+            links: []
+        },
+        {
             name: 'Document Mail',
             role: 'Self (Offsite)',
             duration: 'Oct 2025 - Dec 2025',
@@ -36,39 +106,11 @@ const Projects = () => {
             duration: 'Aug 2025 - Oct 2025',
             tech: ['Flutter', 'FinTech', 'ACH/Wire', 'Credit Card Funding'],
             problem: 'Small businesses need flexible payroll funding options to improve cash flow.',
-            solution: 'FinTech payroll platform allowing companies to fund payroll using business credit cards to earn rewards and extend cycles.',
+            solution: 'FinTech payroll platform allowing companies to fund payroll using business credit cards.',
             responsibilities: [
                 'Developed a platform for funding payroll with business credit cards via ACH or wire.',
                 'Built credit card funding workflows and integrations with accounting/payroll systems.',
                 'Delivered a mobile-first, secure, and scalable Flutter-based experience.'
-            ],
-            links: []
-        },
-        {
-            name: 'International Payment',
-            role: 'Self (Offsite)',
-            duration: 'Jun 2025 - Jul 2025',
-            tech: ['Flutter', 'Cross-border API', 'Real-time', 'Compliance'],
-            problem: 'U.S. businesses need a faster, reliable way to send global payments.',
-            solution: 'Cross-border payment platform enabling minutes-fast transfers from U.S. to UK, Europe, Asia, and more.',
-            responsibilities: [
-                'Developed a cross-border platform for global wallet-to-bank transfers.',
-                'Built real-time transaction tracking and transparent fee handling.',
-                'Integrated scalable APIs for fast settlement and regulatory compliance.'
-            ],
-            links: []
-        },
-        {
-            name: 'Virtual Cards',
-            role: 'Self Product (Company)',
-            duration: 'Jun 2025 - Jul 2025',
-            tech: ['Flutter', 'AI/ML', 'Encryption', 'Analytics'],
-            problem: 'Need for instant issuance and management of virtual and physical expense cards with strict controls.',
-            solution: 'Business Expense Management platform enabling defined spending limits, AI-powered receipt capture, and real-time monitoring.',
-            responsibilities: [
-                'Developed a Virtual Cards and Business Expense Management platform enabling instant issuance of cards.',
-                'Implemented features for AI-powered receipt capture, automated expense categorization, and accounting exports.',
-                'Ensured enterprise-grade security with encryption, tokenization, instant card freeze/unfreeze, and fraud prevention.'
             ],
             links: []
         },
@@ -87,20 +129,6 @@ const Projects = () => {
             links: []
         },
         {
-            name: 'OCW – Cloud-Based Digital Payment Platform',
-            role: 'Self Product (Company)',
-            duration: 'Apr 2024 - Jan 2026',
-            tech: ['Flutter', 'Dart', 'REST APIs', 'Secure Payment Gateways', 'Cloud Services'],
-            problem: 'Managing Accounts Payable (AP) and Accounts Receivable (AR) efficiently in a unified platform.',
-            solution: 'Cloud-based FinTech payment application supporting Printable Checks, eChecks, ACH, Wires, and Wallet-to-Wallet transfers.',
-            responsibilities: [
-                'Built secure and scalable payment workflows using military-grade security standards to prevent check fraud.',
-                'Designed intuitive, user-friendly UI for seamless payment processing on mobile devices.',
-                'Supported 24/7 operational readiness with robust error handling and customer support integration.'
-            ],
-            links: []
-        },
-        {
             name: 'Zil Foundation',
             role: 'Self (Company owned)',
             duration: 'Apr 2024 - Jul 2024',
@@ -111,34 +139,6 @@ const Projects = () => {
                 'Implemented features for generating detailed pension reports and secure local storage.',
                 'Focused on building a user-friendly and secure Flutter-based interface.',
                 'Improved operational efficiency and accuracy in pension management workflows.'
-            ],
-            links: []
-        },
-        {
-            name: 'ZQ Plus Platform',
-            role: 'ZQ Innovations Pvt Ltd',
-            duration: 'Sep 2023 - Mar 2024',
-            tech: ['Flutter', 'Real-time Databse', 'Notifications'],
-            problem: 'Enabling customers to discover professionals and book consultations seamlessly.',
-            solution: 'Multi-app service marketplace consisting of Customer (ZQ Plus), Professional (ZQ Pro), and Team apps.',
-            responsibilities: [
-                'Contributed to building end-to-end booking workflows, profile management, and real-time notifications.',
-                'Implemented payment dashboards and consultation management features (rescheduling, cancellations).',
-                'Implemented scalable Flutter-based UI and backend integrations for service discovery.'
-            ],
-            links: []
-        },
-        {
-            name: 'FMart Grocer',
-            role: 'External Client Retail ECommerce',
-            duration: 'Oct 2022 - Feb 2023',
-            tech: ['Flutter', 'Location Services', 'Loyalty Integration'],
-            problem: 'Location-based online grocery shopping for customers in Dubai and Abu Dhabi.',
-            solution: 'Mobile application enabling users to browse fresh groceries, select nearest stores, and receive doorstep delivery.',
-            responsibilities: [
-                'Implemented product catalog browsing, store-specific offers, and loyalty program integration.',
-                'Contributed to building a smooth, scalable Flutter UI related to personalized offers and alerts.',
-                'Ensured a seamless shopping experience for individuals and families.'
             ],
             links: []
         }

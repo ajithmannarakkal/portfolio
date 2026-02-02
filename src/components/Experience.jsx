@@ -7,22 +7,22 @@ const Experience = () => {
             role: 'Software Engineer',
             duration: 'Apr 2024 - Present',
             description: [
-                'Built and maintained scalable Flutter modules across multiple FinTech products including payments and payroll systems.',
-                'Integrated secure REST APIs and payment gateway workflows supporting various financial transactions.',
-                'Enhanced app performance by approximately 30% through optimized state management and modular design.',
-                'Owned product features from design to production release ensuring high stability, security, and compliance.',
-                'Supported high-reliability financial workflows used by business customers.'
+                'Took ownership of features from design through deployment.',
+                'Implemented secure REST API integrations and state management solutions to support complex transaction workflows.',
+                'Orchestrated cross-functional collaboration with backend, QA, and product teams to deliver stable releases.',
+                'Facilitated stakeholder communication and requirement discussions to resolve complex user issues.',
+                'Mentored junior developers, encouraging code quality standards and knowledge sharing.',
+                'Increased application efficiency by ~30% through performance optimization.',
+                'Supported high-volume daily financial transactions for U.S.-based business customers.'
             ]
         },
         {
             company: 'Hexeam Software Solutions',
-            role: 'Software Engineer',
+            role: 'Junior Software Engineer',
             duration: 'Oct 2022 - Apr 2024',
             description: [
-                'Developed end-to-end Flutter applications with real-time data integration and location services.',
-                'Integrated REST APIs, Firebase, and Google Maps enhancing user interaction and experience.',
-                'Improved performance and maintainability by implementing clean architecture principles.',
-                'Delivered and supported multiple production applications for Android & iOS.'
+                'Developed and maintained end-to-end mobile applications used by production users, featuring real-time updates and location services.',
+                'Connected client-side interfaces with backend services and applied SOLID principles for maintainability.'
             ]
         },
         {
@@ -30,10 +30,7 @@ const Experience = () => {
             role: 'Software Engineer Trainee',
             duration: 'Nov 2021 - Oct 2022',
             description: [
-                'Gained foundational knowledge in Flutter and mobile application development best practices.',
-                'Assisted senior developers on real-time Flutter projects focusing on feature implementation.',
-                'Contributed to UI development, bug fixing, and testing processes for Android applications.',
-                'Acquired hands-on experience with Dart, REST APIs, and app architecture basics.'
+                'Built foundational expertise in Flutter & Dart Mobile App Development and UI/UX debugging.'
             ]
         }
     ];
