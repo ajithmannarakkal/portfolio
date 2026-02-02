@@ -3,6 +3,23 @@ import React from 'react';
 const Projects = () => {
     const projects = [
         {
+            name: 'Quick Note – Notes & Tasks',
+            role: 'Solo Developer',
+            duration: 'Live on Play Store',
+            tech: ['Flutter', 'Offline-first', 'Local Storage', 'Masonry Grid'],
+            problem: 'Need for a fast, privacy-focused, offline-first note-taking app with a beautiful design.',
+            solution: 'A premium, offline-first note-taking app featuring a masonry grid layout, rich text support, and smart checklists.',
+            responsibilities: [
+                'Designed and developed a fully offline, privacy-first note-taking application.',
+                'Implemented a custom masonry grid layout (Pinterest-style) for visual note organization.',
+                'Built features like smart sorting, pinned notes, dark mode, and rich text support.',
+                'Published to Google Play Store with optimized assets and ASO.'
+            ],
+            links: [
+                { url: 'https://play.google.com/store/apps/details?id=com.eframesapps.quicknote', label: 'Play Store' }
+            ]
+        },
+        {
             name: 'OCW – FinTech Mobile Payment Platform',
             role: 'Self Product (Company)',
             duration: 'Apr 2024 - Jan 2026',
