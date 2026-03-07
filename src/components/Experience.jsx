@@ -5,7 +5,7 @@ const Experience = () => {
         {
             company: 'Zil Money',
             role: 'Software Engineer',
-            duration: 'Apr 2024 - Present',
+            duration: 'Apr 2024 - Feb 2026',
             description: [
                 'Took ownership of features from design through deployment.',
                 'Implemented secure REST API integrations and state management solutions to support complex transaction workflows.',
